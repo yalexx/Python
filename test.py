@@ -1,12 +1,5 @@
-from decimal import Decimal
+import random
 
-principal = Decimal('150')
-rate = Decimal('0.08')
-
-for year in range(1, 6):
-    amount = principal * (1 + rate) ** year
-    print(f'{year:>2}{amount:>10.2f}')
-
-
-
+for roll in range(10):
+    print(random.randrange(1, 7), end=' ')
 
