@@ -1,5 +1,11 @@
-import random
+def calculate_product(*args):
+    product = 1
+    for value in args:
+        product *= value
+    return product
 
-for roll in range(10):
-    print(random.randrange(1, 7), end=' ')
 
+print(calculate_product(10, 20, 30))
+
+r = range(1, 6)
+print(r[1])

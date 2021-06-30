@@ -1,12 +1,11 @@
 # Section 3.3 Self Check snippets
-number1 = int(input('Enter first integer: '))
+number3 = int(input('Enter first integer: '))
 
 number2 = int(input('Enter second integer: '))
 
-total = number1 + number2
+total = number3 + number2
 
-print('The sum of', number1, 'and', number2, 'is', total)
-
+print('hello', number3, 'and', number2, 'is', total)
 
 ##########################################################################
 # (C) Copyright 2019 by Deitel & Associates, Inc. and                    #
